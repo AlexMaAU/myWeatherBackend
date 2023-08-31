@@ -15,7 +15,7 @@ connectToDB().then(() => {
       console.log(err);
       process.exit(1);
     }
-    console.log('Express server started at http://127.0.0.1:', config.port);
+    console.log('Express server started at https://myweatherbackend-g23m-dev.fl0.io:', config.port);
   });
 });
 
